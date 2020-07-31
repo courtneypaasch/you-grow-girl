@@ -1,13 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
+    <meta charset="utf-8">
+    <title>You Grow, Girl!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Six Revisions">
+    <meta name="description"
+        content="How to use the CSS background-size property to make an image fully span the entire viewport.">
+    <link href="http://fonts.googleapis.com/css?family=Kotta+One|Cantarell:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
 </head>
+
 <body>
-    
-    <script src="script.js"></script>
+   
+    <main class="container">
+        <div class="ui middle aligned grid">
+            <div class="login">
+                <div class="column">
+                    <h2 class="ui image header">
+                        <div class="content" style="color:white">
+                            Log-in to your account
+                        </div>
+                    </h2>
+                    <form action="https://s.codepen.io/voltron2112/debug/PqrEPM?" method="get" class="ui large form">
+                        <div class="ui stacked secondary  segment">
+                            <div class="field">
+                                <div class="ui left icon input">
+                                    <i class="user icon"></i>
+                                    <input type="text" name="email" placeholder="E-mail address">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="ui left icon input">
+                                    <i class="lock icon"></i>
+                                    <input type="password" name="password" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="ui fluid large submit button"
+                                style="background-color:rgb(49, 93, 82); color: white">Login</div>
+                        </div>
+
+                        <div class="ui error message"></div>
+
+                    </form>
+
+                    <div class="ui message">
+                        New here? <a href="" style="color:rgb(49, 93, 82)">Sign up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="infotext">
+
+
+                    <img src="brand.png" alt="You grow, girl!" class="brand">
+                    <br>
+                    <h2>Welcome to your digital garden</h2>
+                    <h3>Add plants to your garden and include pictures and care information. Sort your garden by
+                        planting season, characteristics, sun needs, and more. Try our beta feature and scan any
+                        plant you're not familar with to learn more!</h3>
+                    <h3>Not a member? Create your garden today!</h3>
+                    <div class="ui fluid large submit button" style="background-color:rgb(49, 93, 82); color: white">
+                        Sign up</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div> <a href="https://github.com/courtneypaasch/you-grow-girl" class="source">View Source Code on
+            GitHub</a> </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </body>
+
 </html>
